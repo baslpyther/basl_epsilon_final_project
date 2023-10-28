@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 import sklearn
 
-model = joblib.load("Model.pkl")
-inputs = joblib.load("inputs3.pkl")
+model = joblib.load("Model4.pkl")
+inputs = joblib.load("inputs4.pkl")
 
 def prediction(Baths, Beds, Dining_Room, Laundry_Room, Store_Rooms, Kitchens, Drawing_Room, Gym, Powder_Room, Steam_Room, Prayer_Rooms, lounge, additional_rooms, area_squared_meter, Total_Rooms, total_amenity_rooms, total_regular_rooms):
     df = pd.DataFrame(columns=inputs)
